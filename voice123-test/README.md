@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Voice 123 test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is bootstrapped using [create-react-app](https://github.com/facebook/create-react-app)
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+nodeJS
 
-### `npm start`
+## How to begin
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Inside project `root` directory run `npm install` or `yarn install` if you are using yarn. After all dependencies are installed run `npm start`. New browser window should open.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Worklog
 
-### `npm test`
+Project management milestones.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Preliminaries](#preliminaries)
 
-### `npm run build`
+  - [Setting Up](#setting-up)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Creating react app. Cleaning up the code and removing the default file system. Installing node modules and setting p the dev environment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - [API ](#api)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Studying the API to get the headers for the searches etc. Configuring axios requests and redux data fetch. 
+  - [Rates of Completion](#rates-of-completion)
+  - [Performance recognition](#performance-recognition)
+  - [Completion of a deliverable](#completion-of-a-deliverable)
+  - [Achievement of an outcome](#achievement-of-an-outcome)
 
-### `npm run eject`
+- [Main Work](#main-work)
+  - [Landing Page Setup](#landing-page-setup)
+     Creating the components and redux file system for the application. Fetching and displaying the data
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  - [Styling](#styling)
+     styling the components
+  
+- [Yet to do / Improvements](#yet-to-do)
+  - [Unit Tests](#unit-tests)
+    Unit tests using React Testing Library and Jest. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - [Intergration Tests](#intergration-tests)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Tests for intergration.
+ 

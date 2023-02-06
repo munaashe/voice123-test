@@ -23,10 +23,6 @@ Project management milestones.
   - [API ](#api)
 
     Studying the API to get the headers for the searches etc. Configuring axios requests and redux data fetch. 
-  - [Rates of Completion](#rates-of-completion)
-  - [Performance recognition](#performance-recognition)
-  - [Completion of a deliverable](#completion-of-a-deliverable)
-  - [Achievement of an outcome](#achievement-of-an-outcome)
 
 - [Main Work](#main-work)
   - [Landing Page Setup](#landing-page-setup)

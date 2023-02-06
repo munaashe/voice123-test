@@ -1,6 +1,7 @@
 import { combineReducers } from "redux";
-import search from "./searchReducer";
+import { voiceActorsReducer, selectedProfileReducer} from "./voiceActorsReducer";
 
 export default combineReducers({
-  search
+  voiceActors: voiceActorsReducer,
+  profile: selectedProfileReducer
 });

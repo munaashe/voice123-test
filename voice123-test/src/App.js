@@ -8,7 +8,7 @@ function App() {
     <>
       <Routes>
         <Route path='/' exact element={<Landing />} />
-        <Route path='/some-route' exact element={<ActorProfile />} />
+        <Route path='/:username' exact element={<ActorProfile />} />
       </Routes>
     </>
   );

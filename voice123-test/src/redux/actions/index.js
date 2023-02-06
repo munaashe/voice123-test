@@ -1,12 +1,16 @@
-import axios from "axios";
-import { FETCH_DATA } from './types'
+import { FETCH_DATA, SELECTED_PROFILE } from './types'
 
-export const fetchData = searchTerm => async dispatch => {
-    const voiceActors = await axios.get(`https://api.sandbox.voice123.com/providers/search/?service=voice_over&keywords=${searchTerm}&page=1`);
-    dispatch({
+export const setVoiceActors = (voiceActors) => {
+    return {
         type: FETCH_DATA,
-        payload: {
-            voiceActors: voiceActors.data.results,
-        }
-    });
+        payload: voiceActors,
+    }
 };
+
+
+export const selectedProfile = (profile) => {
+    return {
+        type: SELECTED_PROFILE, 
+        payload: profile
+    }
+}

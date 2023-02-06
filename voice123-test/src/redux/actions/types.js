@@ -1,1 +1,2 @@
 export const FETCH_DATA = "FETCH_DATA";
+export const SELECTED_PROFILE ='SELECTED_PROFILE'
